@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Confirmacion">
+
+
+    <TextView
+        android:id="@+id/nombre"
+        android:layout_width="310dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/fecha"
+        android:layout_width="310dp"
+        android:layout_height="56dp"
+        android:layout_gravity="center"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/telefono"
+        android:layout_width="310dp"
+        android:layout_height="56dp"
+        android:layout_gravity="center"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="310dp"
+        android:layout_height="56dp"
+        android:layout_gravity="center"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/descripcion"
+        android:layout_width="310dp"
+        android:layout_height="56dp"
+        android:layout_gravity="center"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:text="@string/ButtonEditar"
+        android:onClick="toFormulario"/>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:text="@string/ButtonCrear"
+        android:onClick="crearContacto"/>
+
+</LinearLayout>

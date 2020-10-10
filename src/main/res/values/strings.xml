@@ -1,0 +1,23 @@
+<resources>
+    //nombre aplicacion
+    <string name="app_name">Contactos</string>
+
+    //main
+    <string name="titulo">Contactos</string>
+    <string name="botonIngresar">Ingresar</string>
+
+    //formulario
+    <string name="tl_formulario">Crear Contacto</string>
+    <string name="botonSiguiente">Siguiente</string>
+    <string name="tl_confirmacion">Confirma los Datos</string>
+    <string name="hint_nombre">Nombre Completo</string>
+    <string name="hint_telefono">Telefono</string>
+    <string name="hint_correo">Correo</string>
+    <string name="descripcion">Descripcion</string>
+    <string name="hint_fecha">Fecha de Nacimiento</string>
+
+    //confirmacion
+    <string name="ButtonEditar">Editar Datos</string>
+    <string name="ButtonCrear">Crear Contacto</string>
+    <string name="Toast_CrearContacto">Contacto Creado</string>
+</resources>
